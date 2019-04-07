@@ -11,4 +11,7 @@ class Shoe
     puts "shoe has been repaired"
   end
 
+  shoe = Shoe.new("New Condition")
+  shoe.cobble
+
 end
